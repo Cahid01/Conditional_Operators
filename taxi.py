@@ -9,9 +9,10 @@ distance = int(input("Məsafəni daxil edin (KM) : "))
 price = 2 + (distance * 0.8)
 if price >= 3:
     if  hour <=6 or hour == 23:
-        price = price + price * 20 / 100
+        price = price + (price * 20 / 100)
         print("Gediş haqqı",price, "AZN")
     else:
         print("Gedış haqqı", price ,"AZN")    
 else:
     print("Gediş haqqı minimum 3 AZN-dir!")    
+    

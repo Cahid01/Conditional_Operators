@@ -12,4 +12,4 @@ else:
     elif yas > 65:
         print("-----Bilet 4 AZN!-----")
     else:
-        print("-----Bilet 8 AZN!-----")            
+        print("-----Bilet 8 AZN!-----")                
